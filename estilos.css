@@ -1,0 +1,104 @@
+header{
+    display: flex;
+    background: #020122;
+    position: sticky;
+    top: 0;
+}
+
+.loguito{
+    height: 6em;
+    padding: .5em;
+    padding-left: 2.5em;
+}
+
+.lista_menu{
+    padding-top: 1em;
+    padding-left: 4em;
+    list-style-type: none;
+}
+
+.boton_inicio, .boton_preguntasfrecuentes, .boton_tutoriales{
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #020122;
+    border-radius: .3em;
+}
+
+.boton_inicio:hover, .boton_preguntasfrecuentes:hover, .boton_tutoriales:hover{
+    background: #040238;
+}
+
+.link1, .link2, .link3{
+    padding: 0.1em;
+    
+}
+
+.max_contenedor{
+    display: flex;
+    color: #FFFFFF;
+    background: #040238;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    padding: .5em;
+    text-align: center;
+}
+
+.primera_img{
+    padding: 1em;
+    padding-top: 0em;
+}
+
+.segunda_img{
+    padding: 1em;
+}
+
+.parrafo{
+    padding: 1em;
+    padding-top: 0;
+    text-align: justify;
+    text-indent: 1em;
+}
+
+.subtitulo{
+    padding-left: 1em;
+    text-align: left;
+}
+
+.lista_ejemplos{
+    padding: 2em;
+    padding-top: .5em;
+}
+
+.ejemplos{
+    padding-top: 1em;
+    text-align: justify;
+}
+
+footer{
+    display: flex;
+    background: #020122;
+    color: #FFFFFF;
+}
+
+.lista_social{
+    padding-left: 4em;
+    list-style-type: none;
+}
+
+.botonRed{
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #020122;
+    border-radius: .3em;
+}
+
+.copy{
+    padding: 1em;
+    padding-right: 0em;
+}
+
+.social{
+    padding: 0.1em;
+}
